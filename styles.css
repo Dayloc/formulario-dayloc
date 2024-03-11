@@ -1,0 +1,66 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+.container{
+    
+    border: solid;
+    border: 3px;
+    border-color: rgb(238, 151, 151);
+    margin-top: 5px;
+   
+   
+    font-size: xx-small;
+    width: 800px;
+    height:auto; 
+  }
+
+
+.alert{
+
+   
+    align-items: first baseline;
+    justify-content: center;
+    color: rgb(90, 25, 25);
+    margin-top: 5px;
+    height: auto;
+    
+
+    
+    
+}
+#alerta1{
+    margin-bottom: 10px;
+}
+
+#cancel{
+  align-items: center;
+  justify-content: center;
+}
+#pago{
+ justify-content:left;
+  align-items: center;
+  padding: auto;
+ margin-left: 1 !important;
+
+  
+}
+i{
+  width: 20px;
+  height: 20px;
+}
+#nota{
+  margin-top: 5px;
+}
+#foot{
+  background-color: rgb(213, 213, 213) ;
+}
+#alert{
+  padding: 10px;
+}
+.form-select{
+  height:60%;
+}
+#botones{
+  padding: 8px;
+}
