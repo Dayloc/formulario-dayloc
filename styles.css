@@ -1,6 +1,4 @@
-.selector-for-some-widget {
-    box-sizing: content-box;
-  }
+
 
 .container{
     
@@ -38,17 +36,18 @@
   justify-content: center;
 }
 #pago{
- justify-content:left;
+  justify-content:left;
   align-items: center;
   padding: auto;
- margin-left: 1 !important;
+  margin-left: 1px !important ; 
+  width: 150%;
 
   
 }
-i{
-  width: 20px;
-  height: 20px;
+#visa.master{
+ padding: 2px!important;
 }
+
 #nota{
   margin-top: 5px;
 }
@@ -60,7 +59,9 @@ i{
 }
 .form-select{
   height:60%;
+  width: 60%;
 }
 #botones{
   padding: 8px;
 }
+
