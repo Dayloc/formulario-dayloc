@@ -1,67 +1,92 @@
+.container {
+  border: solid;
+  border: 3px;
+  border-color: rgb(238, 151, 151);
+  margin-top: 5px;
 
-
-.container{
-    
-    border: solid;
-    border: 3px;
-    border-color: rgb(238, 151, 151);
-    margin-top: 5px;
-   
-   
-    font-size: xx-small;
-    max-width: 800px;
-    height:auto; 
-  }
-
-
-.alert{
-
-   
-    align-items: first baseline;
-    justify-content: center;
-    color: rgb(90, 25, 25);
-    margin-top: 5px;
-    height: auto;
-    
-
-    
-    
+  font-size: xx-small;
+  max-width: 800px;
+  height: auto;
 }
-#alerta1{
-    margin-bottom: 10px;
+.card img {
+  height: 100px; /* Ajusta la altura según tus necesidades */
+  object-fit: cover; /* Mantiene la relación de aspecto sin distorsionar la imagen */
 }
 
-#cancel{
+.alert {
+  align-items: first baseline;
+  justify-content: center;
+  color: rgb(90, 25, 25);
+  margin-top: 5px;
+  height: auto;
+}
+#alerta1 {
+  margin-bottom: 10px;
+}
+
+#cancel {
   align-items: center;
   justify-content: center;
 }
-#pago{
-  justify-content:left;
+#pago {
+  justify-content: left;
   align-items: center;
   padding: auto;
-  margin-left: 1px !important ; 
+  margin-left: 1px !important ;
   width: 150%;
-
-  
 }
-#visa.master{
- padding: 2px!important;
+#visa.master {
+  padding: 2px !important;
 }
 
-#nota{
+#nota {
   margin-top: 5px;
 }
-#foot{
-  background-color: rgb(213, 213, 213) ;
+#foot {
+  background-color: rgb(213, 213, 213);
 }
-#alert{
+#alert {
   padding: 10px;
 }
-.form-select{
-  height:60%;
+.form-select {
+  height: 60%;
   width: 60%;
 }
-#botones{
+#botones {
   padding: 8px;
 }
 
+#cabecera {
+  background-color: black;
+  margin-top: 10px;
+}
+body {
+  background-color: black;
+}
+h2 {
+  color: midnightblue;
+}
+.im1 {
+  width: 200px;
+  height: 200px;
+  margin-right: 4px;
+  border-radius: 60px;
+}
+.im2 {
+  width: 150px;
+  height: 150px;
+  border-radius: 20%;
+  margin-top: 10px;
+}
+.im3 {
+  width: max-content;
+  height: 100px;
+  margin-right: 10px;
+}
+#fondo {
+  width: 100%;
+  height: 200px;
+  background-image: url("https://th.bing.com/th/id/R.905b90f8d24f73c3f4734784ebc4392b?rik=LFul%2fQsqt%2b4LWQ&riu=http%3a%2f%2fblog.nicepro.com.br%2fwp-content%2fuploads%2f2017%2f04%2fpanoramica3-1024x412.jpg&ehk=QZuKfQsfelwfA0iBVLHKJvDnJENTcGvbcImETrxi2Hk%3d&risl=&pid=ImgRaw&r=0");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
